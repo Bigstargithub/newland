@@ -148,7 +148,7 @@ dl, ul, li
     position: absolute;
     left:0;
     display:inline-block;
-    width:1000px;
+    width:1200px;
     float:right;
 }
 
@@ -160,7 +160,7 @@ dl, ul, li
     right:0;
     margin-top:-20px;
     width:353px;
-    
+    margin-left:350px;
     
 }
 
