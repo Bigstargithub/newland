@@ -1,0 +1,172 @@
+.header
+{
+    height: 138px;
+}
+
+.header_info
+{
+    width: 1200px;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.login
+{
+    position: absolute;
+    right: 0;
+    top : 20px;
+    padding: 0 20px;
+}
+
+a, li, h2, h3, p, h4
+{
+    font-family: "Nanum Gothic";
+}
+
+.login_off
+{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #00658c;
+}
+
+.nav
+{
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #00658c;
+    position: relative;
+}
+
+.class_nav
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+
+dl, ul, li
+{
+    list-style:none;
+}
+
+.class_li
+{
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    position: relative;
+    padding: 5px 50px;
+}
+
+.class_public
+{
+    height: 300px;
+    position: relative;
+    display: inline-block;
+    margin-top:60px;
+    padding-bottom:40px;
+}
+
+.public_li
+{
+    float: left;
+    padding-right:40px;
+    margin-left:-5px;
+}
+
+.class_detail .youtube_detail
+{
+    display: inline-block;
+}
+
+.img_detail
+{
+    width:350px;
+    height:250px;
+}
+
+.notice_kerin
+{
+    width: 1200px;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.notice_kerin h2, h3
+{
+    float: left;
+}
+
+.notice_kerin h3
+{
+    margin-top:22px;
+}
+
+.class_detail h2
+{
+    font-size:20px;
+    font-weight:600;
+    padding: 0 0;
+}
+
+.company_youtube
+{
+    position: relative;
+    display: inline-block;
+    margin-top:130px;
+}
+
+.img_detail2
+{
+    width:253px;
+    height:187px;
+}
+
+.public_ul2
+{
+    margin-bottom:100px;
+
+}
+
+.public_li2
+{
+    float: left;
+    padding-right:40px;
+    margin-left:-5px;
+    margin-bottom:40px;
+}
+
+.video_detail
+{
+    position: absolute;
+    left:0;
+    display:inline-block;
+    width:1000px;
+    float:right;
+}
+
+.video_comment
+{
+    position: absolute;
+    /* right:120px; */
+    top:0;
+    right:0;
+    margin-top:-20px;
+    width:353px;
+    
+    
+}
+
+.comment_detail
+{
+    height: 320px;
+    /* width: 500px; */
+    overflow: scroll;
+}

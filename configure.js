@@ -2,7 +2,7 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 const bodyParser = require('body-parser');
 
-const index = require('./index.js');
+// const index = require('./index.js');
 
 const app = express();
 const port = 3000;
@@ -16,7 +16,7 @@ nunjucks.configure('Template', {
 });
 
 app.get('/',(req,res)=>{
-    res.render('header.html');
+    res.render('main.html');
     // res.send('hihi');
 });
 
